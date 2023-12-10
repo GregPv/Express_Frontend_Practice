@@ -45,7 +45,7 @@ if (THREE && document.querySelector(".star-field")) {
 
   function animate() {
     requestAnimationFrame(animate);
-
+    c;
     // move towards the camera
     const positions = starsGeometry.attributes.position.array;
     for (let i = 0; i < positions.length; i += 3) {
